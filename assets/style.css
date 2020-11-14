@@ -1,0 +1,212 @@
+#topheader {
+  background-color: #303030;
+  height: 155px;
+}
+
+#headerbox3 {
+  height: 300px;
+  /* background-color: wheat; */
+  width: 200px;
+}
+#headerbox4 {
+  height: 300px;
+  /* background-color: wheat; */
+  width: 200px;
+}
+
+.z_margin {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+@media (max-width: 1200px) {
+  .z_margin {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .z_margin {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 750px) {
+  .z_margin {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+}
+
+#notice {
+  background-color: #000000;
+  color: whitesmoke;
+  /* height: 50px; */
+}
+
+#notice p {
+  font-size: x-small;
+  text-align: center;
+  padding-top: 10px;
+  width: 70%;
+}
+
+/* slider */
+#homeslider {
+  width: 100% !important;
+  margin: 0px;
+}
+
+.carousel-inner img {
+  width: 100% !important;
+  height: 100vh !important;
+  object-fit: cover;
+}
+
+/* slider */
+
+/* wrapper */
+.wrapper {
+  /* height: 1000px; */
+  background-color: #f0f0f0;
+}
+
+/* wrapper */
+
+.innerContent {
+  background-color: #ffffff;
+  padding: 50px 20px;
+}
+
+/* form div */
+
+#formDiv {
+  /* height: 500px; */
+  background-color: turquoise;
+  background-image: url("/images/formDiv.jpg");
+}
+
+#formInner {
+  /* height: 450px; */
+  background-color: rgba(30, 162, 96, 0.74);
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* partner  */
+
+#partnerDiv {
+  background-color: grey;
+  height: 212px;
+}
+
+/* partner ends */
+
+/* call us starts */
+
+#callus {
+  background-color: #1ea260;
+  height: 190px;
+}
+
+/* call us ends */
+
+/* footer */
+
+#footer {
+  height: 330px;
+  background-color: #f0f0f0;
+}
+
+#footer li {
+  list-style: none;
+  text-decoration: underline;
+}
+
+.homeCard {
+  border: 7px inset green;
+  box-shadow: 3px 2px 5px rgb(24, 53, 180);
+}
+
+#aboutHero {
+  height: 300px;
+  position: relative;
+  background-color: black;
+}
+
+#aboutHero video {
+  height: 300px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.sidewala {
+  background: #10a160;
+  height: 100px;
+  position: fixed;
+  bottom: 20%;
+  left: -2px;
+  width: 150px;
+  z-index: 99;
+  border-radius: 0px 30px 30px 0px;
+  border: 2px outset red;
+  color: whitesmoke;
+}
+
+#aboutheader {
+  height: 300px;
+  background-image: linear-gradient(
+      to bottom,
+      #10a16081,
+      rgba(219, 9, 9, 0.356)
+    ),
+    url("../images/aboutheader.jpg");
+  background-attachment: fixed;
+  position: relative;
+}
+
+@keyframes headertextwali {
+  0% {
+    border-top: 3px red inset;
+    border-bottom: 3px #10a160 inset;
+  }
+  50% {
+    border-top: 3px #10a160 inset;
+    border-bottom: 3px red inset;
+  }
+}
+
+.headerText {
+  background-color: rgba(46, 46, 46, 0.466);
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  border-top: 3px red inset;
+  border-bottom: 3px #10a160 inset;
+  animation-name: headertextwali;
+  animation-duration: 1s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.list-group-item {
+  border: 1px solid red;
+}
+
+.headerText h3 {
+  text-align: center;
+  color: wheat;
+}
+
+.headerText h4 {
+  text-align: center;
+  color: wheat;
+}
+
+

@@ -1,0 +1,25 @@
+.text-green {
+  color: #1ea260;
+}
+
+.btn-green {
+  background-color: #1ea260;
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: #1ea260d3;
+
+  border: 1px solid rgba(191, 18, 18, 0.94);
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: white;
+  text-decoration: none;
+  background-color: #8b0000;
+}
