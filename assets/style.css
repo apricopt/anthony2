@@ -1,3 +1,33 @@
+/* animations starts */
+
+@keyframes sidebuttonwali {
+  0% {
+    background: #10a160;
+  }
+  50% {
+    background: red;
+  }
+  70% {
+  
+    font-size: large;
+  }
+}
+
+/* animation ends */
+
+body {
+  font-family: 'Quicksand', sans-serif !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Quicksand', sans-serif !important;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif !important;
+
+}
 #topheader {
   background-color: #303030;
   height: 155px;
@@ -121,6 +151,10 @@
   background-color: #f0f0f0;
 }
 
+#footer a {
+ color:black;
+}
+
 #footer li {
   list-style: none;
   text-decoration: underline;
@@ -155,6 +189,11 @@
   border-radius: 0px 30px 30px 0px;
   border: 2px outset red;
   color: whitesmoke;
+  animation-name: sidebuttonwali;
+  animation-duration: 1s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 #aboutheader {
@@ -210,3 +249,12 @@
 }
 
 
+.icon-container {
+  height:500px;
+  background:rgb(211, 211, 211);
+}
+
+
+.second-container {
+  background-color: rgb(165, 186, 226);
+}
